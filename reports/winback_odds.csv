@@ -1,0 +1,16 @@
+feature,odds_ratio
+ifm,0.8848
+crashes,1.016
+price_gap_pct,1.5477
+sensibilidade_preco,0.9897
+tickets,0.9999
+failed_payment,0.9961
+session_minutes,1.02
+tenure_meses,0.9062
+idade,0.9155
+faixa_18-24,1.3002
+faixa_25-34,0.8853
+faixa_35-44,0.9424
+faixa_45-54,0.9477
+faixa_55+,0.8743
+oferta,2.8854

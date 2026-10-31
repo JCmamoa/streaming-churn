@@ -1,0 +1,68 @@
+{
+  "modelo": "Regressão logística win-back",
+  "n_eventos_churn": 34333,
+  "taxa_retorno_observada": 0.156,
+  "auc_holdout": 0.7867,
+  "segmentos": [
+    {
+      "faixa_etaria": "18-24",
+      "oferta_enviada": false,
+      "prob_retorno_media": 0.0714,
+      "n_ex_usuarios": 14028
+    },
+    {
+      "faixa_etaria": "18-24",
+      "oferta_enviada": true,
+      "prob_retorno_media": 0.3773,
+      "n_ex_usuarios": 14028
+    },
+    {
+      "faixa_etaria": "25-34",
+      "oferta_enviada": false,
+      "prob_retorno_media": 0.0305,
+      "n_ex_usuarios": 7902
+    },
+    {
+      "faixa_etaria": "25-34",
+      "oferta_enviada": true,
+      "prob_retorno_media": 0.2024,
+      "n_ex_usuarios": 7902
+    },
+    {
+      "faixa_etaria": "35-44",
+      "oferta_enviada": false,
+      "prob_retorno_media": 0.0326,
+      "n_ex_usuarios": 5539
+    },
+    {
+      "faixa_etaria": "35-44",
+      "oferta_enviada": true,
+      "prob_retorno_media": 0.2128,
+      "n_ex_usuarios": 5539
+    },
+    {
+      "faixa_etaria": "45-54",
+      "oferta_enviada": false,
+      "prob_retorno_media": 0.0308,
+      "n_ex_usuarios": 3662
+    },
+    {
+      "faixa_etaria": "45-54",
+      "oferta_enviada": true,
+      "prob_retorno_media": 0.2042,
+      "n_ex_usuarios": 3662
+    },
+    {
+      "faixa_etaria": "55+",
+      "oferta_enviada": false,
+      "prob_retorno_media": 0.0219,
+      "n_ex_usuarios": 3202
+    },
+    {
+      "faixa_etaria": "55+",
+      "oferta_enviada": true,
+      "prob_retorno_media": 0.154,
+      "n_ex_usuarios": 3202
+    }
+  ]
+}

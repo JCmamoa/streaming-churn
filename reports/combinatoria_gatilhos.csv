@@ -1,0 +1,88 @@
+k_fatores,combinacao,n_observacoes,suporte_pct,churn_rate_pct,lift_vs_base
+3,instabilidade + preco_desalinhado + falha_pagamento,567,0.22,48.5,3.63
+3,preco_desalinhado + chamados_atacado + falha_pagamento,1534,0.6,45.05,3.37
+3,instabilidade + preco_desalinhado + chamados_atacado,1267,0.49,43.49,3.26
+3,preco_desalinhado + detrator_NPS + falha_pagamento,2321,0.9,43.43,3.25
+3,preco_desalinhado + falha_pagamento + jovem_18_24,3346,1.3,42.8,3.21
+3,preco_desalinhado + falha_pagamento + sessao_curta,2983,1.16,42.0,3.15
+3,instabilidade + preco_desalinhado + jovem_18_24,1983,0.77,41.96,3.14
+3,preco_desalinhado + chamados_atacado + jovem_18_24,6039,2.35,41.65,3.12
+3,instabilidade + preco_desalinhado + detrator_NPS,1872,0.73,41.56,3.11
+3,preco_desalinhado + detrator_NPS + chamados_atacado,6140,2.39,40.28,3.02
+3,preco_desalinhado + detrator_NPS + jovem_18_24,8966,3.49,39.74,2.98
+3,instabilidade + preco_desalinhado + sessao_curta,2358,0.92,38.93,2.92
+2,preco_desalinhado + falha_pagamento,7114,2.77,38.88,2.91
+3,preco_desalinhado + sessao_curta + jovem_18_24,11803,4.59,37.66,2.82
+3,preco_desalinhado + chamados_atacado + sessao_curta,9638,3.75,37.66,2.82
+3,IFM_alto + preco_desalinhado + falha_pagamento,1841,0.72,37.32,2.8
+2,instabilidade + preco_desalinhado,5659,2.2,36.03,2.7
+3,preco_desalinhado + detrator_NPS + sessao_curta,14625,5.69,35.95,2.69
+2,preco_desalinhado + chamados_atacado,16306,6.34,35.66,2.67
+3,IFM_alto + preco_desalinhado + chamados_atacado,5765,2.24,35.0,2.62
+2,preco_desalinhado + jovem_18_24,27726,10.78,34.64,2.59
+2,preco_desalinhado + detrator_NPS,24221,9.42,34.46,2.58
+3,IFM_alto + preco_desalinhado + detrator_NPS,6947,2.7,34.03,2.55
+3,IFM_alto + instabilidade + preco_desalinhado,1452,0.56,33.95,2.54
+3,IFM_alto + preco_desalinhado + jovem_18_24,7353,2.86,33.86,2.54
+3,chamados_atacado + falha_pagamento + jovem_18_24,1467,0.57,32.58,2.44
+3,detrator_NPS + chamados_atacado + falha_pagamento,1210,0.47,32.31,2.42
+2,preco_desalinhado + sessao_curta,30855,12.0,32.11,2.41
+2,instabilidade + falha_pagamento,1146,0.45,31.33,2.35
+3,detrator_NPS + falha_pagamento + jovem_18_24,2217,0.86,30.99,2.32
+3,chamados_atacado + falha_pagamento + sessao_curta,1818,0.71,30.91,2.32
+3,IFM_alto + preco_desalinhado + sessao_curta,8755,3.4,30.71,2.3
+3,instabilidade + chamados_atacado + jovem_18_24,1172,0.46,30.46,2.28
+3,falha_pagamento + sessao_curta + jovem_18_24,2868,1.12,30.06,2.25
+2,chamados_atacado + falha_pagamento,3148,1.22,29.32,2.2
+1,preco_desalinhado,73267,28.49,29.18,2.19
+3,IFM_alto + chamados_atacado + falha_pagamento,1052,0.41,29.09,2.18
+3,detrator_NPS + falha_pagamento + sessao_curta,2895,1.13,28.98,2.17
+3,instabilidade + detrator_NPS + jovem_18_24,1855,0.72,28.89,2.16
+2,IFM_alto + preco_desalinhado,19321,7.51,28.8,2.16
+2,detrator_NPS + falha_pagamento,4810,1.87,27.57,2.07
+3,IFM_alto + detrator_NPS + falha_pagamento,1332,0.52,27.33,2.05
+2,falha_pagamento + jovem_18_24,6854,2.66,27.05,2.03
+3,IFM_alto + falha_pagamento + jovem_18_24,1786,0.69,26.99,2.02
+3,instabilidade + sessao_curta + jovem_18_24,2366,0.92,26.5,1.99
+2,falha_pagamento + sessao_curta,6091,2.37,26.22,1.96
+3,detrator_NPS + chamados_atacado + jovem_18_24,6515,2.53,26.17,1.96
+3,IFM_alto + falha_pagamento + sessao_curta,1666,0.65,25.21,1.89
+3,instabilidade + detrator_NPS + chamados_atacado,1672,0.65,25.06,1.88
+1,falha_pagamento,14631,5.69,24.2,1.81
+3,chamados_atacado + sessao_curta + jovem_18_24,10011,3.89,24.17,1.81
+2,instabilidade + jovem_18_24,5493,2.14,23.78,1.78
+2,IFM_alto + falha_pagamento,3746,1.46,23.65,1.77
+3,instabilidade + chamados_atacado + sessao_curta,2545,0.99,23.1,1.73
+2,chamados_atacado + jovem_18_24,17041,6.63,22.73,1.7
+3,detrator_NPS + sessao_curta + jovem_18_24,15542,6.04,22.73,1.7
+3,instabilidade + detrator_NPS + sessao_curta,3951,1.54,22.4,1.68
+2,instabilidade + chamados_atacado,4339,1.69,22.29,1.67
+3,IFM_alto + chamados_atacado + jovem_18_24,5874,2.28,21.94,1.64
+3,IFM_alto + instabilidade + jovem_18_24,1369,0.53,21.84,1.64
+3,IFM_alto + detrator_NPS + jovem_18_24,7194,2.8,21.71,1.63
+2,detrator_NPS + jovem_18_24,25612,9.96,21.56,1.62
+2,instabilidade + detrator_NPS,6641,2.58,21.43,1.61
+3,IFM_alto + instabilidade + chamados_atacado,1435,0.56,20.98,1.57
+3,detrator_NPS + chamados_atacado + sessao_curta,16294,6.34,20.66,1.55
+3,IFM_alto + detrator_NPS + chamados_atacado,7752,3.01,20.49,1.53
+2,detrator_NPS + chamados_atacado,21709,8.44,20.22,1.51
+2,sessao_curta + jovem_18_24,32614,12.68,20.1,1.51
+3,IFM_alto + sessao_curta + jovem_18_24,9070,3.53,19.49,1.46
+2,instabilidade + sessao_curta,8259,3.21,19.31,1.45
+3,IFM_alto + instabilidade + detrator_NPS,1829,0.71,18.53,1.39
+2,chamados_atacado + sessao_curta,33215,12.91,18.36,1.38
+3,IFM_alto + chamados_atacado + sessao_curta,11217,4.36,18.33,1.37
+1,jovem_18_24,77476,30.12,18.11,1.36
+2,IFM_alto + jovem_18_24,20094,7.81,18.08,1.35
+3,IFM_alto + instabilidade + sessao_curta,2193,0.85,17.88,1.34
+1,instabilidade,19701,7.66,17.53,1.31
+2,IFM_alto + chamados_atacado,19496,7.58,17.2,1.29
+1,chamados_atacado,56897,22.12,17.19,1.29
+2,detrator_NPS + sessao_curta,51694,20.1,17.04,1.28
+2,IFM_alto + instabilidade,4887,1.9,16.86,1.26
+3,IFM_alto + detrator_NPS + sessao_curta,14327,5.57,16.81,1.26
+1,detrator_NPS,85918,33.4,16.35,1.23
+2,IFM_alto + detrator_NPS,23903,9.29,16.33,1.22
+1,sessao_curta,108036,42.0,14.86,1.11
+2,IFM_alto + sessao_curta,29620,11.52,14.63,1.1
+1,IFM_alto,65610,25.51,13.51,1.01

@@ -1,0 +1,11 @@
+faixa_etaria,oferta_enviada,prob_retorno_media,n_ex_usuarios
+18-24,False,0.0714,14028
+18-24,True,0.3773,14028
+25-34,False,0.0305,7902
+25-34,True,0.2024,7902
+35-44,False,0.0326,5539
+35-44,True,0.2128,5539
+45-54,False,0.0308,3662
+45-54,True,0.2042,3662
+55+,False,0.0219,3202
+55+,True,0.154,3202

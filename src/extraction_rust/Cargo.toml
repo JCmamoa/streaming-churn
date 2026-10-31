@@ -1,0 +1,13 @@
+[package]
+name = "log-ingestor"
+version = "0.1.0"
+edition = "2021"
+description = "Microserviço de ingestão de logs do app/web (camada Extract do ETL)"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "io-util", "time"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+lto = true

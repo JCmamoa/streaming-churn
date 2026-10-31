@@ -1,0 +1,82 @@
+{
+  "modelo": "Regressão Logística (churn mensal)",
+  "n_treino": 193034,
+  "n_holdout": 64168,
+  "taxa_churn_treino": 0.1352,
+  "taxa_churn_holdout": 0.1285,
+  "metricas_holdout": {
+    "auc": 0.7844,
+    "log_loss": 0.3166,
+    "brier": 0.0934,
+    "precision": 0.6045,
+    "recall": 0.1537,
+    "f1": 0.2451
+  },
+  "coeficientes": [
+    {
+      "feature": "price_gap_x_sens",
+      "coef": 0.8989,
+      "odds_ratio": 2.457
+    },
+    {
+      "feature": "tickets",
+      "coef": 0.2051,
+      "odds_ratio": 1.2277
+    },
+    {
+      "feature": "crashes",
+      "coef": 0.1834,
+      "odds_ratio": 1.2013
+    },
+    {
+      "feature": "faixa_18-24",
+      "coef": 0.1214,
+      "odds_ratio": 1.1291
+    },
+    {
+      "feature": "failed_payment",
+      "coef": 0.0847,
+      "odds_ratio": 1.0884
+    },
+    {
+      "feature": "ifm",
+      "coef": 0.0547,
+      "odds_ratio": 1.0562
+    },
+    {
+      "feature": "price_gap_pct",
+      "coef": 0.0282,
+      "odds_ratio": 1.0286
+    },
+    {
+      "feature": "faixa_55+",
+      "coef": 0.0191,
+      "odds_ratio": 1.0193
+    },
+    {
+      "feature": "faixa_35-44",
+      "coef": -0.0311,
+      "odds_ratio": 0.9694
+    },
+    {
+      "feature": "faixa_45-54",
+      "coef": -0.0319,
+      "odds_ratio": 0.9686
+    },
+    {
+      "feature": "session_minutes",
+      "coef": -0.0747,
+      "odds_ratio": 0.928
+    },
+    {
+      "feature": "faixa_25-34",
+      "coef": -0.083,
+      "odds_ratio": 0.9204
+    },
+    {
+      "feature": "tenure_meses",
+      "coef": -0.1789,
+      "odds_ratio": 0.8362
+    }
+  ]
+}

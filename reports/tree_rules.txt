@@ -1,0 +1,82 @@
+|--- price_gap_x_sens <= 65.487
+|   |--- price_gap_x_sens <= 23.337
+|   |   |--- price_gap_x_sens <= -18.171
+|   |   |   |--- crashes <= 0.500
+|   |   |   |   |--- tickets <= 2.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- tickets >  2.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- crashes >  0.500
+|   |   |   |   |--- tickets <= 1.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- tickets >  1.500
+|   |   |   |   |   |--- class: 0
+|   |   |--- price_gap_x_sens >  -18.171
+|   |   |   |--- tickets <= 1.500
+|   |   |   |   |--- faixa_18-24 <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- faixa_18-24 >  0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- tickets >  1.500
+|   |   |   |   |--- faixa_18-24 <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- faixa_18-24 >  0.500
+|   |   |   |   |   |--- class: 0
+|   |--- price_gap_x_sens >  23.337
+|   |   |--- tickets <= 1.500
+|   |   |   |--- tenure_meses <= 3.500
+|   |   |   |   |--- crashes <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- crashes >  0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- tenure_meses >  3.500
+|   |   |   |   |--- tenure_meses <= 5.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- tenure_meses >  5.500
+|   |   |   |   |   |--- class: 0
+|   |   |--- tickets >  1.500
+|   |   |   |--- crashes <= 0.500
+|   |   |   |   |--- class: 0
+|   |   |   |--- crashes >  0.500
+|   |   |   |   |--- class: 0
+|--- price_gap_x_sens >  65.487
+|   |--- price_gap_x_sens <= 102.024
+|   |   |--- faixa_18-24 <= 0.500
+|   |   |   |--- price_gap_x_sens <= 82.445
+|   |   |   |   |--- crashes <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- crashes >  0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- price_gap_x_sens >  82.445
+|   |   |   |   |--- crashes <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- crashes >  0.500
+|   |   |   |   |   |--- class: 0
+|   |   |--- faixa_18-24 >  0.500
+|   |   |   |--- crashes <= 0.500
+|   |   |   |   |--- tickets <= 1.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- tickets >  1.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- crashes >  0.500
+|   |   |   |   |--- tickets <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- tickets >  0.500
+|   |   |   |   |   |--- class: 0
+|   |--- price_gap_x_sens >  102.024
+|   |   |--- price_gap_x_sens <= 125.225
+|   |   |   |--- tickets <= 1.500
+|   |   |   |   |--- crashes <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- crashes >  0.500
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- tickets >  1.500
+|   |   |   |   |--- price_gap_x_sens <= 111.152
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- price_gap_x_sens >  111.152
+|   |   |   |   |   |--- class: 1
+|   |   |--- price_gap_x_sens >  125.225
+|   |   |   |--- price_gap_x_sens <= 135.963
+|   |   |   |   |--- class: 1
+|   |   |   |--- price_gap_x_sens >  135.963
+|   |   |   |   |--- class: 1
